@@ -8,12 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		1705CC0C2454470C00213FF0 /* MyExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1705CC0A2454470C00213FF0 /* MyExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1705CC1B2454472D00213FF0 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1705CC122454472D00213FF0 /* UIViewExtensions.swift */; };
+		1705CC1C2454472D00213FF0 /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1705CC132454472D00213FF0 /* UILabelExtension.swift */; };
+		1705CC1D2454472D00213FF0 /* NSLayoutConstraintExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1705CC142454472D00213FF0 /* NSLayoutConstraintExtension.swift */; };
+		1705CC1E2454472D00213FF0 /* DoubleExtesion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1705CC152454472D00213FF0 /* DoubleExtesion.swift */; };
+		1705CC1F2454472D00213FF0 /* NotificationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1705CC162454472D00213FF0 /* NotificationExtension.swift */; };
+		1705CC202454472D00213FF0 /* UITextFieldDelegateDecimalInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1705CC172454472D00213FF0 /* UITextFieldDelegateDecimalInput.swift */; };
+		1705CC212454472D00213FF0 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1705CC182454472D00213FF0 /* UIViewControllerExtension.swift */; };
+		1705CC222454472D00213FF0 /* UITextFieldDecimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1705CC192454472D00213FF0 /* UITextFieldDecimal.swift */; };
+		1705CC232454472D00213FF0 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1705CC1A2454472D00213FF0 /* UIColorExtension.swift */; };
+		1705CC25245447A000213FF0 /* UICollectionViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1705CC24245447A000213FF0 /* UICollectionViewExtension.swift */; };
+		1705CC2C24544E2000213FF0 /* DateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1705CC2A24544E2000213FF0 /* DateUtils.swift */; };
+		1705CC2D24544E2000213FF0 /* SerializationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1705CC2B24544E2000213FF0 /* SerializationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1705CC072454470C00213FF0 /* MyExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1705CC0A2454470C00213FF0 /* MyExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyExtensions.h; sourceTree = "<group>"; };
 		1705CC0B2454470C00213FF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1705CC122454472D00213FF0 /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		1705CC132454472D00213FF0 /* UILabelExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelExtension.swift; sourceTree = "<group>"; };
+		1705CC142454472D00213FF0 /* NSLayoutConstraintExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSLayoutConstraintExtension.swift; sourceTree = "<group>"; };
+		1705CC152454472D00213FF0 /* DoubleExtesion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoubleExtesion.swift; sourceTree = "<group>"; };
+		1705CC162454472D00213FF0 /* NotificationExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationExtension.swift; sourceTree = "<group>"; };
+		1705CC172454472D00213FF0 /* UITextFieldDelegateDecimalInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldDelegateDecimalInput.swift; sourceTree = "<group>"; };
+		1705CC182454472D00213FF0 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		1705CC192454472D00213FF0 /* UITextFieldDecimal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldDecimal.swift; sourceTree = "<group>"; };
+		1705CC1A2454472D00213FF0 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		1705CC24245447A000213FF0 /* UICollectionViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewExtension.swift; sourceTree = "<group>"; };
+		1705CC2724544C8900213FF0 /* ToDo.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ToDo.md; sourceTree = "<group>"; };
+		1705CC2A24544E2000213FF0 /* DateUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateUtils.swift; sourceTree = "<group>"; };
+		1705CC2B24544E2000213FF0 /* SerializationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SerializationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +71,47 @@
 		1705CC092454470C00213FF0 /* MyExtensions */ = {
 			isa = PBXGroup;
 			children = (
+				1705CC2824544DF500213FF0 /* Extensions */,
+				1705CC2924544E0C00213FF0 /* Utils */,
 				1705CC0A2454470C00213FF0 /* MyExtensions.h */,
 				1705CC0B2454470C00213FF0 /* Info.plist */,
+				1705CC2724544C8900213FF0 /* ToDo.md */,
 			);
 			path = MyExtensions;
+			sourceTree = "<group>";
+		};
+		1705CC2624544B4D00213FF0 /* Numeric */ = {
+			isa = PBXGroup;
+			children = (
+				1705CC152454472D00213FF0 /* DoubleExtesion.swift */,
+				1705CC192454472D00213FF0 /* UITextFieldDecimal.swift */,
+				1705CC172454472D00213FF0 /* UITextFieldDelegateDecimalInput.swift */,
+			);
+			path = Numeric;
+			sourceTree = "<group>";
+		};
+		1705CC2824544DF500213FF0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1705CC162454472D00213FF0 /* NotificationExtension.swift */,
+				1705CC142454472D00213FF0 /* NSLayoutConstraintExtension.swift */,
+				1705CC1A2454472D00213FF0 /* UIColorExtension.swift */,
+				1705CC132454472D00213FF0 /* UILabelExtension.swift */,
+				1705CC182454472D00213FF0 /* UIViewControllerExtension.swift */,
+				1705CC122454472D00213FF0 /* UIViewExtensions.swift */,
+				1705CC24245447A000213FF0 /* UICollectionViewExtension.swift */,
+				1705CC2624544B4D00213FF0 /* Numeric */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1705CC2924544E0C00213FF0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1705CC2A24544E2000213FF0 /* DateUtils.swift */,
+				1705CC2B24544E2000213FF0 /* SerializationManager.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,6 +157,7 @@
 				TargetAttributes = {
 					1705CC062454470C00213FF0 = {
 						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1120;
 					};
 				};
 			};
@@ -131,6 +194,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1705CC2C24544E2000213FF0 /* DateUtils.swift in Sources */,
+				1705CC1F2454472D00213FF0 /* NotificationExtension.swift in Sources */,
+				1705CC222454472D00213FF0 /* UITextFieldDecimal.swift in Sources */,
+				1705CC1C2454472D00213FF0 /* UILabelExtension.swift in Sources */,
+				1705CC1E2454472D00213FF0 /* DoubleExtesion.swift in Sources */,
+				1705CC25245447A000213FF0 /* UICollectionViewExtension.swift in Sources */,
+				1705CC1D2454472D00213FF0 /* NSLayoutConstraintExtension.swift in Sources */,
+				1705CC232454472D00213FF0 /* UIColorExtension.swift in Sources */,
+				1705CC1B2454472D00213FF0 /* UIViewExtensions.swift in Sources */,
+				1705CC212454472D00213FF0 /* UIViewControllerExtension.swift in Sources */,
+				1705CC2D24544E2000213FF0 /* SerializationManager.swift in Sources */,
+				1705CC202454472D00213FF0 /* UITextFieldDelegateDecimalInput.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +335,7 @@
 		1705CC102454470C00213FF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 5VL69VT32L;
@@ -276,6 +352,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = sa.MyExtensions;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -284,6 +361,7 @@
 		1705CC112454470C00213FF0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 5VL69VT32L;
