@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class SerializetionManager {
+public class SerializetionManager {
  
     private let appDataFileName = "sTodoModelData"
     

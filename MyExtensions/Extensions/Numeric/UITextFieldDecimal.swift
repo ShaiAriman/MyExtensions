@@ -8,7 +8,7 @@
 
 import UIKit
 
-class UITextFieldDecimal : UITextField {
+public class UITextFieldDecimal : UITextField {
     
     static let comma = ","
     
@@ -17,7 +17,7 @@ class UITextFieldDecimal : UITextField {
 //
     private let textFieldDelegateDecimalInput = UITextFieldDelegateDecimalInput()
     
-    override func awakeFromNib() {
+    override public func awakeFromNib() {
         self.delegate = textFieldDelegateDecimalInput
         self.keyboardType = .decimalPad
     }

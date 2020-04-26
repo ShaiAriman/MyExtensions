@@ -2,6 +2,17 @@
 //  UICollectionViewExtension.swift
 //  MyExtensions
 //
+//  Source: https://dev.to/tattn/my-favorite--swift-extensions-8g7
+
+//  Usage:
+//    collectionView.register(cellType: MyCell.self)
+//    collectionView.register(cellTypes: [MyCell1.self, MyCell2.self])
+//    let cell = collectionView.dequeueReusableCell(with: MyCell.self, for: indexPath)
+//
+//    collectionView.register(reusableViewType: MyReusableView.self)
+//    collectionView.register(reusableViewTypes: [MyReusableView1.self, MyReusableView2.self])
+//    let view = collectionView.dequeueReusableView(with: MyReusableView.self, for: indexPath)
+
 //  Created by Shai Ariman on 25/04/2020.
 //  Copyright © 2020 Shai Ariman. All rights reserved.
 //

@@ -10,7 +10,7 @@ import Foundation
 import SafariServices
 import StoreKit
 
-extension UIViewController {
+public extension UIViewController {
     
     func openUrl(url : String) {
         if let url = URL(string: url) {

@@ -6,13 +6,11 @@
 //  Copyright © 2019 Shai Ariman. All rights reserved.
 //
 
-import Foundation
-
 import UIKit
 
-extension UIColor {
+public extension UIColor {
     
-    public convenience init?(hexString: String) {
+    convenience init?(hexString: String) {
         let r, g, b, a: CGFloat
         
         var start = hexString.index(hexString.startIndex, offsetBy: 0)

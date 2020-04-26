@@ -8,7 +8,7 @@
 
 import Foundation
 
-class DateUtils {
+public class DateUtils {
     
     static let dateFormat = "dd-MM-yyyy"
     
